@@ -15,3 +15,15 @@ end
 service 'hadoop-hdfs-namenode' do
     action :start
 end
+
+service 'hadoop-hdfs-datanode' do
+    action :start
+end
+
+service 'hadoop-yarn-resourcemanager' do
+    action :start
+end
+
+service 'hadoop-yarn-nodemanager' do
+    action :start
+end
