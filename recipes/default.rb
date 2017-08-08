@@ -31,3 +31,7 @@ end
 yum_package 'hadoop-mapreduce' do
     action :install
 end
+
+yum_package 'spark-core' do
+    action :install
+end
